@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<sheet src="pacman.png">
+	<sprite name="pacman_temp" x="352" y="30" width="24" height="10" />
+
+	<sprite name="wall" x="341" y="82" width="12" height="12" />
+	<sprite name="pellet" x="13" y="155" width="10" height="10" />
+	<sprite name="ne_corner" x="197" y="77" width="12" height="12" />
+	<sprite name="dead_end" x="196" y="92" width="12" height="12" />
+	<sprite name="tee_intersect" x="196" y="77" width="24" height="12" />
+
+	<sprite name="pts_200" x="196" y="173" width="22" height="22" />
+	<sprite name="pts_400" x="220" y="173" width="22" height="22" />
+	<sprite name="pts_800" x="244" y="173" width="22" height="22" />
+	<sprite name="pts_1600" x="268" y="173" width="22" height="22" />
+
+	<sprite name="afraid_ghost_1" x="292" y="149" width="22" height="22" />
+	<sprite name="afraid_ghost_2" x="316" y="149" width="22" height="22" />
+
+	<sprite name="pacman_rt_1" x="292" y="173" width="22" height="22" />
+	<sprite name="pacman_rt_2" x="340" y="173" width="22" height="22" />
+	<sprite name="pacman_dn_1" x="316" y="173" width="22" height="22" />
+	<sprite name="pacman_dn_2" x="364" y="173" width="22" height="22" />
+	<sprite name="pacman_up_1" x="28" y="269" width="22" height="22" />
+	<sprite name="pacman_up_2" x="76" y="269" width="22" height="22" />
+	<sprite name="pacman_lt_1" x="4" y="269" width="22" height="22" />
+	<sprite name="pacman_lt_2" x="52" y="269" width="22" height="22" />
+
+	<sprite name="num_0" x="6" y="7" width="10" height="10" />
+	<sprite name="num_1" x="17" y="7" width="10" height="10" />
+	<sprite name="num_2" x="30" y="7" width="10" height="10" />
+	<sprite name="num_3" x="42" y="7" width="10" height="10" />
+	<sprite name="num_4" x="54" y="7" width="10" height="10" />
+	<sprite name="num_5" x="66" y="7" width="10" height="10" />
+	<sprite name="num_6" x="78" y="7" width="10" height="10" />
+	<sprite name="num_7" x="90" y="7" width="10" height="10" />
+	<sprite name="num_8" x="102" y="7" width="10" height="10" />
+	<sprite name="num_9" x="114" y="7" width="10" height="10" />
+	<sprite name="alp_a" x="18" y="29" width="10" height="10" />
+	<sprite name="alp_b" x="30" y="29" width="10" height="10" />
+	<sprite name="alp_c" x="42" y="29" width="10" height="10" />
+	<sprite name="alp_d" x="54" y="29" width="10" height="10" />
+	<sprite name="alp_e" x="66" y="29" width="10" height="10" />
+	<sprite name="alp_f" x="78" y="29" width="10" height="10" />
+	<sprite name="alp_g" x="90" y="29" width="10" height="10" />
+	<sprite name="alp_h" x="102" y="29" width="10" height="10" />
+	<sprite name="alp_i" x="114" y="29" width="10" height="10" />
+	<sprite name="alp_i" x="114" y="29" width="10" height="10" />
+	<sprite name="alp_j" x="126" y="29" width="10" height="10" />
+	<sprite name="alp_k" x="138" y="29" width="10" height="10" />
+	<sprite name="alp_l" x="150" y="29" width="10" height="10" />
+	<sprite name="alp_m" x="162" y="29" width="10" height="10" />
+	<sprite name="alp_n" x="174" y="29" width="10" height="10" />
+	<sprite name="alp_o" x="186" y="29" width="10" height="10" />
+	<sprite name="alp_p" x="198" y="29" width="10" height="10" />
+	<sprite name="alp_q" x="210" y="29" width="10" height="10" />
+	<sprite name="alp_r" x="222" y="29" width="10" height="10" />
+	<sprite name="alp_s" x="234" y="29" width="10" height="10" />
+	<sprite name="alp_t" x="246" y="29" width="10" height="10" />
+	<sprite name="alp_u" x="258" y="29" width="10" height="10" />
+	<sprite name="alp_v" x="270" y="29" width="10" height="10" />
+	<sprite name="alp_w" x="282" y="29" width="10" height="10" />
+	<sprite name="alp_x" x="294" y="29" width="10" height="10" />
+	<sprite name="alp_y" x="306" y="29" width="10" height="10" />
+	<sprite name="alp_z" x="318" y="29" width="10" height="10" />
+	<sprite name="alp_exc" x="330" y="29" width="10" height="10" />
+	<sprite name="alp_pts" x="352" y="30" width="24" height="10" />
+
+	<sprite name="cherry" x="6" y="125" width="22" height="22" />
+	<sprite name="strawberry" x="29" y="125" width="22" height="22" />
+	
+	<sprite name="blinky_rt_1" x="4" y="173" width="22" height="22" />
+	<sprite name="blinky_rt_2" x="29" y="173" width="22" height="22" />
+	<sprite name="blinky_dn_1" x="52" y="173" width="22" height="22" />
+	<sprite name="blinky_dn_2" x="76" y="173" width="22" height="22" />
+	<sprite name="blinky_lt_1" x="100" y="173" width="22" height="22" />
+	<sprite name="blinky_lt_2" x="124" y="173" width="22" height="22" />
+	<sprite name="blinky_up_1" x="148" y="173" width="22" height="22" />
+	<sprite name="blinky_up_2" x="172" y="173" width="22" height="22" />
+
+	<sprite name="pinky_rt_1" x="4" y="221" width="22" height="22" />
+	<sprite name="pinky_rt_2" x="28" y="221" width="22" height="22" />
+	<sprite name="pinky_dn_1" x="52" y="221" width="22" height="22" />
+	<sprite name="pinky_dn_2" x="76" y="221" width="22" height="22" />
+	<sprite name="pinky_lt_1" x="100" y="221" width="22" height="22" />
+	<sprite name="pinky_lt_2" x="124" y="221" width="22" height="22" />
+	<sprite name="pinky_up_1" x="148" y="221" width="22" height="22" />
+	<sprite name="pinky_up_2" x="172" y="221" width="22" height="22" />
+
+	<sprite name="clyde_rt_1" x="4" y="245" width="22" height="22" />
+	<sprite name="clyde_rt_2" x="28" y="245" width="22" height="22" />
+	<sprite name="clyde_dn_1" x="52" y="245" width="22" height="22" />
+	<sprite name="clyde_dn_2" x="76" y="245" width="22" height="22" />
+	<sprite name="clyde_lt_1" x="100" y="245" width="22" height="22" />
+	<sprite name="clyde_lt_2" x="124" y="245" width="22" height="22" />
+	<sprite name="clyde_up_1" x="148" y="245" width="22" height="22" />
+	<sprite name="clyde_up_2" x="172" y="245" width="22" height="22" />
+
+	<sprite name="inky_rt_1" x="196" y="221" width="22" height="22" />
+	<sprite name="inky_rt_2" x="220" y="221" width="22" height="22" />
+	<sprite name="inky_dn_1" x="244" y="221" width="22" height="22" />
+	<sprite name="inky_dn_2" x="268" y="221" width="22" height="22" />
+	<sprite name="inky_lt_1" x="292" y="221" width="22" height="22" />
+	<sprite name="inky_lt_2" x="316" y="221" width="22" height="22" />
+	<sprite name="inky_up_1" x="340" y="221" width="22" height="22" />
+	<sprite name="inky_up_2" x="364" y="221" width="22" height="22" />
+
+	<sprite name="dead_ghost_rt_1" x="196" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_rt_2" x="220" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_dn_1" x="244" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_dn_2" x="268" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_lt_1" x="292" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_lt_2" x="316" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_up_1" x="340" y="245" width="22" height="22" />
+	<sprite name="dead_ghost_up_2" x="364" y="245" width="22" height="22" />
+
+	<sprite name="pacman_death_1" x="4" y="197" width="22" height="22" />
+	<sprite name="pacman_death_2" x="101" y="197" width="22" height="22" />
+	<sprite name="pacman_death_3" x="126" y="197" width="22" height="22" />
+	<sprite name="pacman_death_4" x="148" y="197" width="22" height="22" />
+	<sprite name="pacman_death_5" x="173" y="197" width="22" height="22" />
+	<sprite name="pacman_death_6" x="197" y="197" width="22" height="22" />
+	<sprite name="pacman_death_7" x="221" y="197" width="22" height="22" />
+	<sprite name="pacman_death_8" x="245" y="197" width="22" height="22" />
+	<sprite name="pacman_death_9" x="268" y="198" width="22" height="22" />
+	<sprite name="pacman_death_10" x="292" y="198" width="22" height="22" />
+	<sprite name="pacman_death_11" x="316" y="198" width="22" height="22" />
+	<sprite name="pacman_death_12" x="341" y="198" width="22" height="22" />
+</sheet>

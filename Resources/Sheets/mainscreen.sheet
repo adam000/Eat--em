@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<sheet src="logo.png">
+	<sprite name="paclogo" x="20" y="5" width="78" height="17" />
+</sheet>

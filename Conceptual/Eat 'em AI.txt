@@ -1,0 +1,9 @@
+My AIs
+
+A* - Uses A* algorithm to find quickest path to the player.
+
+SPF - "Shortest Path First" - named after the Dijkstra Algorithm, likewise works to find the shortest path to the player.
+
+Intercept - this AI will calculate where it will intercept the player, assuming that the player will continue straight and turn left, if possible, when it hits a wall.
+
+Wander - This AI will wander around the map until it is within 7 units of the player, then pursue the player using SPF.
