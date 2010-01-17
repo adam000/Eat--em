@@ -91,10 +91,10 @@ void music ( const std::string& music )
 		init();
 	if (current_music)
 		stopmusic();
-	SDL_RWops* ops = FM->OpenFile(music + ".wav");
+	SDL_RWops* ops = FM->OpenFile("Resources/Sounds/" + music + ".wav");
 	if (!ops)
 	{
-		ops = FM->OpenFile(music + ".ogg");
+		ops = FM->OpenFile("Resources/Sounds/" + music + ".ogg");
 	}
 	current_music = Mix_LoadMUS_RW(ops);
 	Mix_PlayMusic(current_music, -1);

@@ -43,10 +43,10 @@ FileManager* FileManager::GetSingleton ()
 
 SDL_RWops* FileManager::OpenFile ( const std::string& file )
 {
-	SDL_RWops* ops = SDL_RWFromFile((root + file).c_str(), "rb");
+	SDL_RWops* ops = SDL_RWFromFile((root + "Eatem.app/Resources/Resources/" + file).c_str(), "rb");
 	if (!ops)
 	{
-		// printf("Failed to open file '%s' - full path: %s\n", file.c_str(), (root + file).c_str());
+		printf("Failed to open file '%s' - full path: %s\n", file.c_str(), (root + file).c_str());
 		return NULL;
 	}
 	return ops;

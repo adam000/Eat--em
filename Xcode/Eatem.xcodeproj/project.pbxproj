@@ -10,6 +10,11 @@
 		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C0009D093BD00EBEB88 /* OpenGL.framework */; };
+		7A44B15C1102D9E400A61586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		7A44B15D1102D9E500A61586 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		7A44B1801102DA1300A61586 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A44B17D1102DA1300A61586 /* SDL_image.framework */; };
+		7A44B1811102DA1300A61586 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A44B17E1102DA1300A61586 /* SDL_mixer.framework */; };
+		7A44B1821102DA1300A61586 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A44B17F1102DA1300A61586 /* SDL_ttf.framework */; };
 		7A9593BE1102CEF60045CDB2 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 7A9593901102CEF60045CDB2 /* Resources */; };
 		7A9595331102D2820045CDB2 /* aialgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A9595231102D2820045CDB2 /* aialgorithm.cpp */; };
 		7A9595341102D2820045CDB2 /* collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A9595251102D2820045CDB2 /* collision.cpp */; };
@@ -48,6 +53,9 @@
 		002F3C0009D093BD00EBEB88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7A44B17D1102DA1300A61586 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
+		7A44B17E1102DA1300A61586 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = /Library/Frameworks/SDL_mixer.framework; sourceTree = "<absolute>"; };
+		7A44B17F1102DA1300A61586 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = /Library/Frameworks/SDL_ttf.framework; sourceTree = "<absolute>"; };
 		7A9593901102CEF60045CDB2 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = ../Resources; sourceTree = SOURCE_ROOT; };
 		7A9593D21102CFA10045CDB2 /* Eatem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9595231102D2820045CDB2 /* aialgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aialgorithm.cpp; sourceTree = "<group>"; };
@@ -83,6 +91,11 @@
 			files = (
 				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
 				002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */,
+				7A44B15C1102D9E400A61586 /* Foundation.framework in Frameworks */,
+				7A44B15D1102D9E500A61586 /* AppKit.framework in Frameworks */,
+				7A44B1801102DA1300A61586 /* SDL_image.framework in Frameworks */,
+				7A44B1811102DA1300A61586 /* SDL_mixer.framework in Frameworks */,
+				7A44B1821102DA1300A61586 /* SDL_ttf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +114,9 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A44B17D1102DA1300A61586 /* SDL_image.framework */,
+				7A44B17E1102DA1300A61586 /* SDL_mixer.framework */,
+				7A44B17F1102DA1300A61586 /* SDL_ttf.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 			);

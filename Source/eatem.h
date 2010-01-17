@@ -53,7 +53,7 @@ const int SCREENH = 57;					//game screen height (in units)
 const int SCREENW = 113;				//game screen width (in units)
 const int SCREENGH = 8;
 const int SCREENGW = 16;
-const bool mute = true;
+const bool mute = false;
 
 //INTEGERS
 extern int timer_speed;

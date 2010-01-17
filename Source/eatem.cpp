@@ -1,6 +1,6 @@
 /******************************************************\
-|This file and its contents ©Copyright 2008 Adam Hintz |
-|and Alastair Lynn. You may not redistribute or use    |
+|This file and its contents ©Copyright 2010 Adam Hintz |
+|and Alistair Lynn. You may not redistribute or use    |
 |parts or the whole of this code without our express   |
 |written permission. All rights reserved.              |
 \******************************************************/
@@ -376,9 +376,9 @@ void initialize()
 	gluOrtho2D(-2.0, SCREENTW - 2.0, -2.0, SCREENTH - 2.0);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	Sound::music("eatpellet");
-	Sound::music("eatghost");
-	Sound::music("pacdeath2");
+//	Sound::music("eatpellet");
+//	Sound::music("eatghost");
+//	Sound::music("pacdeath2");
 	Sound::music("moo_theme");
 	g_blinky.pers_status = ST_BLINKY;
 	g_pinky.pers_status = ST_PINKY;
@@ -447,7 +447,7 @@ void draw_scene()
 }
 
 int main(int argc, char *argv[])
-{	
+{
 	initialize();
 	fileout << "Initialization complete." << endl << flush;
 	Menu::main();
