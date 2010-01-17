@@ -5,7 +5,7 @@
 |written permission. All rights reserved.              |
 \******************************************************/
 
-#include "pacman01.h"
+#include "eatem.h"
 
 extern int resolution [2];
 

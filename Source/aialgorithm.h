@@ -8,7 +8,7 @@
 #ifndef __included_aialgorithm_h
 #define __included_aialgorithm_h
 
-#include "pacman01.h"
+#include "eatem.h"
 
 extern bool blinky_moving;
 extern bool pinky_moving;

@@ -8,7 +8,7 @@
 #ifndef __included_collision_h
 #define __included_collision_h
 
-#include "pacman01.h"
+#include "eatem.h"
 
 bool pacman_collision(int direction);
 bool pacman_collision_up(int direction);

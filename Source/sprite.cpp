@@ -6,7 +6,7 @@
 \******************************************************/
 
 #include "sprite.h"
-#include "pacman01.h"
+#include "eatem.h"
 
 #include <OpenGL/gl.h>
 #include <map>

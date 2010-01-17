@@ -8,7 +8,7 @@
 #ifndef __included_drawobject_h
 #define __included_drawobject_h
 
-#include "pacman01.h"
+#include "eatem.h"
 #include "collision.h"
 
 const int SIZE = 6;

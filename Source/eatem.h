@@ -5,8 +5,8 @@
 |written permission. All rights reserved.              |
 \******************************************************/
 
-#ifndef __included_pacman01_h
-#define __included_pacman01_h
+#ifndef __included_eatem_h
+#define __included_eatem_h
 
 ////////////////////////
 //Libraries////////////
